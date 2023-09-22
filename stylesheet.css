@@ -1,0 +1,123 @@
+.header {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 45px;
+  line-height: 40px;
+  border-radius: 10px;
+  font-family: 'Verdana', serif;
+}
+
+.header-border{
+    border-radius: 30%;
+  }
+
+head{
+    text-align: center;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  background-color: white;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 30px;
+}
+  
+h2 {
+  background-color: blanchedalmond;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+
+ img{
+      width:200px;
+      height:200px;
+  }
+  
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+.title{
+      text-align: center;
+      font-family: verdana, garamond, sans-serif;
+  }
+
+p{
+    font-family: verdana, serif, georgia, times new roman;
+    text-align: left;
+  }
+
+  li{
+    font-family: verdana, serif, georgia, times new roman;
+    font-size: 13px;
+    margin-right:10px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+table, th, td{
+    border: 1px solid;
+}
+
+table{
+    width:100%;
+}
+
+span{
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited{
+    color: teal;
+}
+
+div {
+  display: block;
+}
+
+form {
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: azure;
+  }
+}
+ 
+ @media (max-width: 640px) {
+ body {
+ background-color: bisque;
+ }
+}
+
+ @media (min-width: 641px) and (max-width: 768px) {
+ body {
+ background-color: teal;
+ }
+}
+
+ @media (min-width: 769px) {
+ body {
+ background-color: blanchedalmond;
+ }
+}
