@@ -36,6 +36,21 @@ h2 {
     color: black;
 }
 
+h4 {
+  background-color: blanchedalmond;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 15px;
+}
+  
+h5 {
+  background-color: blanchedalmond;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+
  img{
       width:200px;
       height:200px;
